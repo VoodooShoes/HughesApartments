@@ -4,9 +4,12 @@ namespace HughesApartments.Controllers
 {
     public class UtilitiesController : Controller
     {
-        public string Electricity() 
+        public ContentResult Electricity() 
         {
-            return "Electricity";
+            return new ContentResult()
+            {
+                Content = "Entergy"
+            };
         }
 
     }
