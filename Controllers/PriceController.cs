@@ -2,5 +2,9 @@
 {
     public class PriceController
     {
+        public int Rent()
+        {
+            return 800;
+        }
     }
 }

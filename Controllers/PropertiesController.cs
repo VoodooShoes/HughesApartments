@@ -2,5 +2,9 @@
 {
     public class PropertiesController
     {
+        public String Location()
+        {
+            return "Location";
+        }
     }
 }

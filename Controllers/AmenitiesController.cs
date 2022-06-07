@@ -2,5 +2,9 @@
 {
     public class AmenitiesController
     {
+        public bool Pool()
+        {
+            return true;
+        }
     }
 }

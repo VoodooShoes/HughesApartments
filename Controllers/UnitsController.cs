@@ -2,5 +2,9 @@
 {
     public class UnitsController
     {
+        public string TwoBedTwoBath()
+        {
+            return "TwoBedTwoBath";
+        }
     }
 }
